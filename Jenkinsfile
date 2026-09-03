@@ -1,8 +1,5 @@
 pipeline{
-    agent{
-        node{
-            label 'ROBOSHOP'
-        }
+    agent any
     }
     /* environment{
         COURSE = "jenkins"
