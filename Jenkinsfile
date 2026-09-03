@@ -43,7 +43,8 @@ pipeline {
             steps {
                 script {
                     sh '''
-                        docker build -t catalogue:1.0.0 .
+                        sh '''
+                            docker build -t catalogue:1.0.0 -f docker/Dockerfile .
                     '''
                 }
             }
