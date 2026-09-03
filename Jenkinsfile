@@ -54,7 +54,7 @@ pipeline{
         always{
             echo 'I will always say hell again'
         }
-        successful{
+        success{
             echo 'pipeline is success'
         }
         failure{
